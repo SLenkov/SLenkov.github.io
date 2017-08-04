@@ -1,0 +1,28 @@
+.form {
+  width: 100%;
+  position: relative;
+  color: color('text', 'lighten');
+
+  .form-input {
+    height: 100%;
+    border-color: transparent;
+    border-radius: 3px;
+    color: white;
+
+    &:focus {
+      color: color('text', 'base');
+      box-shadow: 0 0 2px color('text', 'accent');
+      outline: none;
+    }
+
+    &:focus ~ .input-label {
+      z-index: -1;
+    }
+  }
+  .input-label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,268 @@
+.card {
+  width: 100%;
+  padding: 28px 22px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  min-height: 180px;
+
+  &__image {
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include screen('s') {
+      display: none;
+    }
+
+    object {
+      pointer-events: none;
+    }
+  }
+  &__body {
+    width: 79%;
+
+    @include screen('s') {
+      width: 100%;
+    }
+
+    .head {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+
+      &__title {
+        @include type-setting(2);
+        position: relative;
+
+        &--alert {
+          &::after {
+            content: "!";
+            display: block;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 100%;
+            margin-left: 14px;
+            background-color: color('card', 'alert-color');
+            color: white;
+            text-align: center;
+            border-radius: 100%;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.2;
+          }
+        }
+
+        &--success {
+          &::after {
+            content: "";
+            display: block;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 100%;
+            margin-left: 14px;
+            background-color: color('card', 'success-color');
+            color: white;
+            text-align: center;
+            border-radius: 100%;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.2;
+          }
+          &::before {
+            content: "";
+            display: block;
+            width: 7px;
+            height: 5px;
+            position: absolute;
+            top: 45%;
+            left: 100%;
+            margin-left: 18px;
+            border-left: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+            border-right: none;
+            border-top: none;
+            z-index: 1;
+            transform: translateY(-50%) rotate(-45deg);
+          }
+        }
+      }
+      &__status {
+        padding: 6px 18px;
+        background-color: color('card', 'status-prymary-bg');
+        color: color('card', 'status-prymary-color');
+        border: 1px solid color('card', 'status-prymary-border');
+        border-radius: 4px;
+      }
+    }
+
+    .info {
+      position: relative;
+      min-height: 80px;
+
+      &__description {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-size: type-scale(0);
+        line-height: line-height(2);
+        margin-bottom: 14px;
+        opacity: 1;
+        z-index: 1;
+        transition: all 0.3s linear;
+      }
+      &__sets {
+        min-height: 14px;
+        line-height: line-height(0);
+        margin-top: 14px;
+        margin-bottom: 14px;
+        .date {
+          color: color('text', 'lighten');
+        }
+      }
+      &__actions {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+
+        .enable-card {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          margin-right: auto;
+          margin-left: 22px;
+          color: color('text', 'accent');
+          cursor: pointer;
+          opacity: 1;
+          z-index: 1;
+          transition: all 0.3s linear;
+
+          &::before {
+            content: "+";
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: -2px;
+            right: 100%;
+            color: color('text', 'accent');
+            font-size: 20px;
+            line-height: 1;
+            margin-right: 12px;
+            transition: color 0.3s linear;
+          }
+
+          &:hover,
+          &:focus {
+            color: darken(color('text', 'accent'), 15%);
+
+            &::before {
+              color: darken(color('text', 'accent'), 15%);
+            }
+          }
+        }
+        .change-data {
+          margin-left: auto;
+          @include type-setting(2);
+          color: color('text', 'accent');
+          cursor: pointer;
+          transition: color 0.3s linear;
+
+          &:hover,
+          &:focus {
+            color: darken(color('text', 'accent'), 15%);
+          }
+
+          & a {
+            text-decoration: none;
+            @include type-setting(2);
+            color: color('text', 'accent');
+            transition: color 0.3s linear;
+
+            &:hover,
+            &:focus {
+              color: darken(color('text', 'accent'), 15%);
+            }
+          }
+        }
+        .more-data {
+          position: relative;
+
+          .icon {
+            margin-right: 10px;
+            fill: color('text', 'accent');
+          }
+          .change-code-sent {
+            color: color('text', 'accent');
+            cursor: pointer;
+
+            &:hover,
+            &:focus {
+              color: darken(color('text', 'accent'), 15%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &--disable {
+    background-color: color('card', 'dis-bg');
+    border: 1px solid color('card', 'dis-border');
+    border-radius: 3px;
+
+    .head__status,
+    .info__content,
+    .info__sets,
+    .more-data,
+    .card__body .info__actions .change-data {
+      opacity: 0;
+      transition: opacity 0.3s linear;
+    }
+  }
+
+  &--enable {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom-color: color('card', 'active-border');
+
+    .title-prefix {
+      display: none;
+    }
+    .info__description,
+    .card__body .info__actions .enable-card {
+      opacity: 0;
+      z-index: -10;
+    }
+    .head__status,
+    .info__content,
+    .info__sets,
+    .more-data,
+    .card__body .info__actions .change-data {
+      opacity: 1;
+      transition: opacity 0.3s linear 0.4s;
+    }
+  }
+}
+
+.card-data {
+
+  &__head {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
+

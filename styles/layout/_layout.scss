@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  padding: 0 25px;
+  border: 1px solid color('border', 'header');
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  max-width: 610px;
+  margin: 0 auto;
+  padding: 55px 0 78px;
+
+  @include screen('m') {
+    width: 90%;
+  }
+}

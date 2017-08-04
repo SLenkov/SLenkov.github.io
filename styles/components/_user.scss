@@ -1,0 +1,12 @@
+.user {
+  align-self: center;
+
+  @include screen("m") {
+    margin-left: auto;
+  }
+
+  &__id {
+    @include type-setting(4);
+    color: color('text', 'light');
+  }
+}

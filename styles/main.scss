@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+# abstracts - import sass variables, functions, mixins and placeholders
+--------------------------------------------------------------*/
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+/*--------------------------------------------------------------
+# vendors - import external libraries files
+--------------------------------------------------------------*/
+@import "vendor/normalize";
+/*--------------------------------------------------------------
+# base - import basic styles (general rules, fonts, typography)
+--------------------------------------------------------------*/
+@import "base/base";
+/*--------------------------------------------------------------
+# layout - import styles for pages layout (grid, header, footer, etc)
+--------------------------------------------------------------*/
+@import "layout/layout";
+/*--------------------------------------------------------------
+# components - import styles for components (forms, buttons, logo, etc)
+--------------------------------------------------------------*/
+@import "components/navigation";
+@import "components/user";
+@import "components/dash";
+@import "components/card";
+@import "components/forms";
+@import "components/icons";

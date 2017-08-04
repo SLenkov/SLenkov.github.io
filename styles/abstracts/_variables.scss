@@ -1,0 +1,84 @@
+$shuttle-grey: #5A5E62;
+$shuttle-grey-blue: #526070;
+$rhino: #3E4A5C;
+$cello: #404D60;
+$light-slate-grey: #6E819E;
+$tropical-blue: #BDD4EB;
+$raven: #677386;
+$white: #ffffff;
+$whisper: #E4E4E4;
+$solitude: #E7EAED;
+$alice-blue: #F7F8F9;
+$pattens-blue: #E2E7E9;
+$set-color-1: #8AE4E8;
+$set-color-2: #76D2D7;
+$set-color-3: #52D1D7;
+$medium-turquoise: #37CAD1;
+$light-sea-green: #1FA8AE;
+$iris-blue: #04BCC6;
+$havelock-blue: #447BC6;
+$nobel: #979797;
+$success-color: #44B386;
+$alert-color: #E7492B;
+
+$colors: (
+        text: (
+                'base': $rhino,
+                'light': $cello,
+                'lighten': $raven,
+                'accent': $havelock-blue
+        ),
+        nav: (
+                'text': $shuttle-grey,
+                'line': $iris-blue
+        ),
+        card: (
+                'active-border': #D1D1D1,
+                'dis-bg': $alice-blue,
+                'dis-border': $pattens-blue,
+                'status-prymary-color': $light-slate-grey,
+                'status-prymary-bg': #F3F8FC,
+                'status-prymary-border': #BDD4EB,
+                'success-color': $success-color,
+                'alert-color': $alert-color
+        ),
+        bg: (
+                'white': $white,
+                'base': $alice-blue
+        ),
+        border: (
+                'header': $whisper
+        ),
+        dash: (
+                'text': $shuttle-grey-blue,
+                'progress-bar': $solitude,
+                'sets-1': $set-color-1,
+                'sets-2': $set-color-2,
+                'sets-3': $set-color-3,
+                'sets-4': $medium-turquoise,
+                'sets-5': $light-sea-green
+        )
+);
+
+$font-size: (
+        0: 12px,
+        1: 14px,
+        2: 16px,
+        3: 22px,
+        4: 26px
+);
+
+$line-heights: (
+        0: 14px,
+        1: 16px,
+        2: 19px,
+        3: 26px,
+        4: 30px
+);
+
+$breakpoints: (
+        'xs': 30em, // phones max-width 480px
+        's': 40em, // large phones max-width 640px
+        'm': 50em, // tablets max-width 800px
+        'l': 64em // laptops max-width 1024px
+);

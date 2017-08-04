@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Test task page</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header class="header">
+  <button class="mob-nav-btn"><span class="line"></span></button>
+  <nav class="nav">
+    <a href="" class="nav__link">Profile</a>
+    <a href="" class="nav__link nav__link--active">Security</a>
+    <a href="" class="nav__link">API</a>
+    <a href="" class="nav__link">Fhash</a>
+    <a href="" class="nav__link">Mobile</a>
+    <a href="" class="nav__link">Social</a>
+  </nav>
+  <div class="user">
+    <div class="user__title">User ID:</div>
+    <div class="user__id">UP 242975972</div>
+  </div>
+</header>
+<main class="main">
+  <section class="dash">
+    <div class="dash__head dash-head">
+      <div class="dash-head__title count">Security <span class="count__block">0</span>%</div>
+      <div class="dash-head__activity">
+        <svg class="icon">
+          <use xlink:href="assets/svg/sprite.svg#icon-clock"></use>
+        </svg>
+        Account activity
+      </div>
+    </div>
+    <div class="dash__progress">
+      <div class="progress-bar" data-count="0"></div>
+    </div>
+    <div class="dash__sets">
+      <div class="set set--phone">Set Linked phone number + 20%</div>
+      <div class="set set--email">Set E-mail + 20%</div>
+      <div class="set set--pass">Set Password + 20%</div>
+      <div class="set set--ga">Set Google Authentificator + 20%</div>
+      <div class="set set--backup">Set Backup codes + 20%</div>
+    </div>
+  </section>
+  <section class="card card--disable">
+    <div class="card__image">
+      <object type="image/svg+xml" data="assets/svg/illustration-phone.svg">
+        <param name="src" value="assets/svg/illustration-phone.svg">
+      </object>
+    </div>
+    <div class="card__body">
+      <div class="head">
+        <div class="head__title">
+          <span class="title-prefix">Set up</span> Linked phone number
+        </div>
+        <div class="head__status">Primary 2FA</div>
+      </div>
+      <div class="info">
+        <div class="info__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Cum voluptatibus labore magnam similique culpa, non quos doloremque quis totam eligendi.
+        </div>
+        <div class="info__content">
+          <form class="form">
+            <input type="text" id="phone" class="form-input" value="">
+            <label for="phone" class="input-label">+XX XXX XXX XX XX</label>
+          </form>
+        </div>
+        <div class="info__sets">Added on: <span class="date">09.09.2013</span></div>
+        <div class="info__actions">
+          <div class="enable-card">Set up phone number</div>
+          <div class="more-data">
+            <svg class="icon">
+              <use xlink:href="assets/svg/sprite.svg#icon-arrows"></use>
+            </svg>
+            Codes sent via SMS. <span class="change-code-sent">Change to Voice</span></div>
+          <div class="change-data"><a href="">Lost your phone?</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="card card--disable">
+    <div class="card__image">
+      <object type="image/svg+xml" data="assets/svg/illustration-mail.svg">
+        <param name="src" value="assets/svg/illustration-mail.svg">
+      </object>
+    </div>
+    <div class="card__body">
+      <div class="head">
+        <div class="head__title">
+          <span class="title-prefix">Set up</span> E-mail
+        </div>
+      </div>
+      <div class="info">
+        <div class="info__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Cum voluptatibus labore magnam similique culpa, non quos doloremque quis totam eligendi.
+        </div>
+        <div class="info__content">
+          <form class="form">
+            <input type="email" id="email" class="form-input" value="">
+            <label for="email" class="input-label">User-name@somemail.com</label>
+          </form>
+        </div>
+        <div class="info__sets"></div>
+        <div class="info__actions">
+          <div class="enable-card">Set up your email</div>
+          <div class="change-data">Change E-mail</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="card card--disable">
+    <div class="card__image">
+      <object type="image/svg+xml" data="assets/svg/illustration-keys.svg">
+        <param name="src" value="assets/svg/illustration-keys.svg">
+      </object>
+    </div>
+    <div class="card__body">
+      <div class="head">
+        <div class="head__title">
+          <span class="title-prefix">Set up</span> Password
+        </div>
+      </div>
+      <div class="info">
+        <div class="info__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Cum voluptatibus labore magnam similique culpa, non quos doloremque quis totam eligendi.
+        </div>
+        <div class="info__content">
+          <form class="form">
+            <input type="password" id="password" class="form-input" value="">
+            <label for="password" class="input-label">**********</label>
+          </form>
+          <div class="info__sets">Last change on: <span class="date">09.09.2013</span></div>
+        </div>
+        <div class="info__actions">
+          <div class="enable-card">Set up password</div>
+          <div class="change-data">Change Password</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="card card--disable">
+    <div class="card__image">
+      <object type="image/svg+xml" data="assets/svg/illustration-ga.svg">
+        <param name="src" value="assets/svg/illustration-ga.svg">
+      </object>
+    </div>
+    <div class="card__body">
+      <div class="head">
+        <div class="head__title">
+          <span class="title-prefix">Get codes via</span> Google Authenticator app
+        </div>
+      </div>
+      <div class="info">
+        <div class="info__description">
+          Google Authenticator app for Android, iPhone, or BlackBerry
+          works even when your device has no data or phone connectivity.
+        </div>
+        <div class="info__content">
+          <form class="form">
+            <input type="text" id="application" class="form-input" value="">
+            <label for="application" class="input-label">UA-XXX-XXX-XXX</label>
+          </form>
+          <div class="info__sets">Last change on: <span class="date">09.09.2013</span></div>
+        </div>
+        <div class="info__actions">
+          <div class="enable-card">Set up Application</div>
+          <div class="change-data">Change Application</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="card card--disable">
+    <div class="card__image">
+      <object type="image/svg+xml" data="assets/svg/illustration-lock.svg">
+        <param name="src" value="assets/svg/illustration-lock.svg">
+      </object>
+    </div>
+    <div class="card__body">
+      <div class="head">
+        <div class="head__title">
+          Backup codes
+        </div>
+      </div>
+      <div class="info">
+        <div class="info__description">
+          No backup codes were printed or downloaded.
+          We suggest that you print or download backup codes, especially if
+          you travel or have problems with receiving codes on your phone.
+        </div>
+        <div class="info__content">
+          <form class="form">
+            <input type="text" id="generate" class="form-input" value="">
+            <label for="generate" class="input-label">UA-XXX-XXX-XXX</label>
+          </form>
+          <div class="info__sets">Last change on: <span class="date">09.09.2013</span></div>
+        </div>
+        <div class="info__actions">
+          <div class="enable-card">Generate backup codes</div>
+          <div class="change-data">Generate backup codes</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- scripts -->
+<script
+        src="http://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

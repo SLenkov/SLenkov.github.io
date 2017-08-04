@@ -1,0 +1,127 @@
+.dash {
+  width: 100%;
+  padding: 0 25px;
+  margin-bottom: 18px;
+
+  &__head {
+    width: 100%;
+  }
+  &__progress {
+    width: 100%;
+    padding: 17px 0;
+  }
+  &__sets {
+
+    &.phone .set--phone,
+    &.email .set--email,
+    &.password .set--pass,
+    &.application .set--ga,
+    &.generate .set--backup {
+      height: 0;
+      opacity: 0;
+      margin: 0;
+    }
+  }
+}
+
+.dash-head {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: color('dash', 'text');
+
+  &__title {
+    @include type-setting(3);
+  }
+}
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  position: relative;
+  background-color: color('dash', 'progress-bar');
+
+  &::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #4EA6FF, #04BCC6);
+    z-index: 1;
+    transition: width 0.3s linear;
+  }
+}
+
+.progress-bar[data-count="20"] {
+  &::before {
+    width: 20%;
+  }
+}
+
+.progress-bar[data-count="40"] {
+  &::before {
+    width: 40%;
+  }
+}
+
+.progress-bar[data-count="60"] {
+  &::before {
+    width: 60%;
+  }
+}
+
+.progress-bar[data-count="80"] {
+  &::before {
+    width: 80%;
+  }
+}
+
+.progress-bar[data-count="100"] {
+  &::before {
+    width: 100%;
+  }
+}
+
+.set {
+  @include type-setting(0);
+  margin-bottom: 10px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &--phone {
+    color: color('dash', 'sets-1');
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+  }
+  &--email {
+    color: color('dash', 'sets-2');
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+  }
+  &--pass {
+    color: color('dash', 'sets-3');
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+  }
+  &--ga {
+    color: color('dash', 'sets-4');
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+  }
+  &--backup {
+    color: color('dash', 'sets-5');
+    height: 100%;
+    opacity: 1;
+    transition: all .3s linear;
+  }
+}

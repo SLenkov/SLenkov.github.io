@@ -1,0 +1,179 @@
+<svg width="57" height="73" viewBox="0 0 57 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Illustration</title>
+    <desc>Created using Figma</desc>
+    <g id="Canvas" transform="translate(-6420 -72)">
+        <g id="Illustration">
+            <g id="Group 7">
+                <g id="Fill 1">
+                    <use xlink:href="#path0_fill" transform="translate(6421.76 73.2232)" fill="#FFFFFF"/>
+                </g>
+                <g id="Stroke 3">
+                    <use xlink:href="#path1_stroke" transform="translate(6421.76 73.2232)" fill="#DEDEE2"/>
+                </g>
+                <mask id="mask0_outline" mask-type="alpha">
+                    <g id="Clip 6">
+                        <use xlink:href="#path2_fill" transform="translate(6410 72.4835)" fill="#FFFFFF"/>
+                    </g>
+                </mask>
+                <g id="Fill 5" mask="url(#mask0_outline)">
+                    <use xlink:href="#path3_fill" transform="translate(6425.41 81.6842)" fill="#F2F2F3"/>
+                </g>
+            </g>
+            <g id="Group 14">
+                <g id="Group 10">
+                    <mask id="mask1_outline" mask-type="alpha">
+                        <g id="Clip 9">
+                            <use xlink:href="#path4_fill" transform="translate(6425.41 81.6842)" fill="#FFFFFF"/>
+                        </g>
+                    </mask>
+                    <g id="Fill 8" mask="url(#mask1_outline)">
+                        <use xlink:href="#path5_fill" transform="translate(6410 72.4832)" fill="#F9F9F9"/>
+                    </g>
+                </g>
+                <g id="Group 13">
+                    <mask id="mask2_outline" mask-type="alpha">
+                        <g id="Clip 12">
+                            <use xlink:href="#path6_fill" transform="translate(6425.41 81.6842)" fill="#FFFFFF"/>
+                        </g>
+                    </mask>
+                    <g id="Fill 11" mask="url(#mask2_outline)">
+                        <use xlink:href="#path7_fill" transform="translate(6419.69 75.9604)" fill="#F9F9F9"/>
+                    </g>
+                </g>
+            </g>
+            <g id="Group 26">
+                <g id="Stroke 15">
+                    <use xlink:href="#path8_stroke" transform="translate(6425.41 81.6842)" fill="#DEDEE2"/>
+                </g>
+                <g id="Fill 17">
+                    <use xlink:href="#path9_fill" transform="translate(6438.01 134.022)" fill="#FFFFFF"/>
+                </g>
+                <g id="Stroke 18">
+                    <use xlink:href="#path10_stroke" transform="translate(6438.01 134.022)" fill="#DEDEE2"/>
+                </g>
+                <g id="Fill 19">
+                    <use xlink:href="#path11_fill" transform="translate(6433.06 76.9065)" fill="#FFFFFF"/>
+                </g>
+                <g id="Fill 20">
+                    <use xlink:href="#path12_fill" transform="translate(6432.82 76.6649)" fill="#DEDEE2"/>
+                </g>
+                <g id="Fill 21">
+                    <use xlink:href="#path13_fill" transform="translate(6436.43 77.3329)" fill="#FFFFFF"/>
+                </g>
+                <g id="Stroke 22">
+                    <use xlink:href="#path14_stroke" transform="translate(6436.43 77.3329)" fill="#DEDEE2"/>
+                </g>
+                <g id="Fill 23">
+                    <use xlink:href="#path15_fill" transform="translate(6447.45 87.6084)" fill="#FFFFFF"/>
+                </g>
+                <g id="Stroke 24">
+                    <use xlink:href="#path16_stroke" transform="translate(6447.45 87.6084)" fill="#DEDEE2"/>
+                </g>
+                <g id="Fill 25">
+                    <use xlink:href="#path17_fill" transform="translate(6451.4 93.2879)" fill="#F2F2F3"/>
+                </g>
+            </g>
+            <g id="Group 33">
+                <g id="Group 29">
+                    <mask id="mask3_outline" mask-type="alpha">
+                        <g id="Clip 28">
+                            <use xlink:href="#path18_fill" transform="translate(6451.4 93.2879)" fill="#FFFFFF"/>
+                        </g>
+                    </mask>
+                    <g id="Fill 27" mask="url(#mask3_outline)">
+                        <use xlink:href="#path19_fill" transform="translate(6441.72 88.4605)" fill="#F9F9F9"/>
+                    </g>
+                </g>
+                <g id="Group 32">
+                    <mask id="mask4_outline" mask-type="alpha">
+                        <g id="Clip 31">
+                            <use xlink:href="#path20_fill" transform="translate(6451.4 93.2879)" fill="#FFFFFF"/>
+                        </g>
+                    </mask>
+                    <g id="Fill 30" mask="url(#mask4_outline)">
+                        <use xlink:href="#path21_fill" transform="translate(6447.81 90.2848)" fill="#F9F9F9"/>
+                    </g>
+                </g>
+            </g>
+            <g id="Group 51">
+                <g id="Stroke 34">
+                    <use xlink:href="#path22_stroke" transform="translate(6451.4 93.2879)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 36">
+                    <use xlink:href="#path23_stroke" transform="translate(6452.01 122.488)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 37">
+                    <use xlink:href="#path24_stroke" transform="translate(6459.29 123.531)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 38">
+                    <use xlink:href="#path25_stroke" transform="translate(6467.63 122.488)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 39">
+                    <use xlink:href="#path26_stroke" transform="translate(6451.4 127.702)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 40">
+                    <use xlink:href="#path26_stroke" transform="translate(6459.16 127.702)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 41">
+                    <use xlink:href="#path26_stroke" transform="translate(6466.92 127.702)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 42">
+                    <use xlink:href="#path26_stroke" transform="translate(6451.4 130.831)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 43">
+                    <use xlink:href="#path26_stroke" transform="translate(6459.16 130.831)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 44">
+                    <use xlink:href="#path26_stroke" transform="translate(6466.92 130.831)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 45">
+                    <use xlink:href="#path26_stroke" transform="translate(6451.4 133.959)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 46">
+                    <use xlink:href="#path26_stroke" transform="translate(6459.16 133.959)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 47">
+                    <use xlink:href="#path26_stroke" transform="translate(6466.92 133.959)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 48">
+                    <use xlink:href="#path26_stroke" transform="translate(6451.4 137.088)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 49">
+                    <use xlink:href="#path26_stroke" transform="translate(6459.16 137.088)" fill="#DEDEE2"/>
+                </g>
+                <g id="Stroke 50">
+                    <use xlink:href="#path26_stroke" transform="translate(6466.92 137.088)" fill="#DEDEE2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <path id="path0_fill" fill-rule="evenodd" d="M 34.5434 69.8638L 4.56769 69.8638C 2.05578 69.8638 0 67.8312 0 65.3466L 0 4.51721C 0 2.03258 2.05578 0 4.56769 0L 34.5434 0C 37.0558 0 39.1111 2.03258 39.1111 4.51721L 39.1111 65.3466C 39.1111 67.8312 37.0558 69.8638 34.5434 69.8638Z"/>
+        <path id="path1_stroke" d="M 34.5434 68.8638L 4.56769 68.8638L 4.56769 70.8638L 34.5434 70.8638L 34.5434 68.8638ZM 4.56769 68.8638C 2.59749 68.8638 1 67.2684 1 65.3466L -1 65.3466C -1 68.394 1.51407 70.8638 4.56769 70.8638L 4.56769 68.8638ZM 1 65.3466L 1 4.51721L -1 4.51721L -1 65.3466L 1 65.3466ZM 1 4.51721C 1 2.59538 2.59749 1 4.56769 1L 4.56769 -1C 1.51407 -1 -1 1.46978 -1 4.51721L 1 4.51721ZM 4.56769 1L 34.5434 1L 34.5434 -1L 4.56769 -1L 4.56769 1ZM 34.5434 1C 36.514 1 38.1111 2.59531 38.1111 4.51721L 40.1111 4.51721C 40.1111 1.46985 37.5976 -1 34.5434 -1L 34.5434 1ZM 38.1111 4.51721L 38.1111 65.3466L 40.1111 65.3466L 40.1111 4.51721L 38.1111 4.51721ZM 38.1111 65.3466C 38.1111 67.2685 36.514 68.8638 34.5434 68.8638L 34.5434 70.8638C 37.5976 70.8638 40.1111 68.3939 40.1111 65.3466L 38.1111 65.3466Z"/>
+        <path id="path2_fill" fill-rule="evenodd" d="M 0 71.087L 65.9012 71.087L 65.9012 0L 0 0L 0 71.087Z"/>
+        <path id="path3_fill" fill-rule="evenodd" d="M 0 49.92L 31.812 49.92L 31.812 0L 0 0L 0 49.92Z"/>
+        <path id="path4_fill" fill-rule="evenodd" d="M 26.8415 49.92L 0 49.92L 0 0L 26.8415 0L 26.8415 49.92Z"/>
+        <path id="path5_fill" fill-rule="evenodd" d="M 0 63.8947L 17.3971 63.8947L 42.2503 0L 24.8532 0L 0 63.8947Z"/>
+        <path id="path6_fill" fill-rule="evenodd" d="M 6.70071 0L 0 0L 1.73688e-15 13.0538L 6.70071 13.0538L 6.70071 0Z"/>
+        <path id="path7_fill" fill-rule="evenodd" d="M 0 18.7776L 5.1128 18.7776L 12.4168 0L 7.304 0L 0 18.7776Z"/>
+        <path id="path8_stroke" d="M 0 49.92L -0.5 49.92L -0.5 50.42L 0 50.42L 0 49.92ZM 31.812 49.92L 31.812 50.42L 32.312 50.42L 32.312 49.92L 31.812 49.92ZM 31.812 0L 32.312 0L 32.312 -0.5L 31.812 -0.5L 31.812 0ZM 0 0L 0 -0.5L -0.5 -0.5L -0.5 0L 0 0ZM 0 50.42L 31.812 50.42L 31.812 49.42L 0 49.42L 0 50.42ZM 32.312 49.92L 32.312 0L 31.312 0L 31.312 49.92L 32.312 49.92ZM 31.812 -0.5L 0 -0.5L 0 0.5L 31.812 0.5L 31.812 -0.5ZM -0.5 0L -0.5 49.92L 0.5 49.92L 0.5 0L -0.5 0Z"/>
+        <path id="path9_fill" fill-rule="evenodd" d="M 3.3 0C 1.47742 0 0 1.4611 0 3.26353C 0 5.06597 1.47742 6.52707 3.3 6.52707C 5.12258 6.52707 6.6 5.06597 6.6 3.26353C 6.6 1.4611 5.12258 0 3.3 0Z"/>
+        <path id="path10_stroke" d="M 3.3 -1C 0.935643 -1 -1 0.898364 -1 3.26353L 1 3.26353C 1 2.02383 2.0192 1 3.3 1L 3.3 -1ZM -1 3.26353C -1 5.6287 0.935643 7.52707 3.3 7.52707L 3.3 5.52707C 2.0192 5.52707 1 4.50324 1 3.26353L -1 3.26353ZM 3.3 7.52707C 5.66436 7.52707 7.6 5.6287 7.6 3.26353L 5.6 3.26353C 5.6 4.50324 4.5808 5.52707 3.3 5.52707L 3.3 7.52707ZM 7.6 3.26353C 7.6 0.898364 5.66436 -1 3.3 -1L 3.3 1C 4.5808 1 5.6 2.02383 5.6 3.26353L 7.6 3.26353Z"/>
+        <path id="path11_fill" fill-rule="evenodd" d="M 0.920089 1.81936C 0.412622 1.81936 0 1.4113 0 0.909921C 0 0.408063 0.412622 0 0.920089 0C 1.42756 0 1.83969 0.408063 1.83969 0.909921C 1.83969 1.4113 1.42756 1.81936 0.920089 1.81936Z"/>
+        <path id="path12_fill" fill-rule="evenodd" d="M 1.16453 0C 0.521644 0 0 0.515397 0 1.15166C 0 1.78745 0.521644 2.30285 1.16453 2.30285C 1.80742 2.30285 2.32907 1.78745 2.32907 1.15166C 2.32907 0.515397 1.80742 0 1.16453 0ZM 1.16441 0.48349C 1.53695 0.48349 1.84006 0.783252 1.84006 1.15167C 1.84006 1.5196 1.53695 1.81936 1.16441 1.81936C 0.791881 1.81936 0.48877 1.5196 0.48877 1.15167C 0.48877 0.783252 0.791881 0.48349 1.16441 0.48349Z"/>
+        <path id="path13_fill" fill-rule="evenodd" d="M 10.2241 1.20872L 0.611111 1.20872C 0.274756 1.20872 0 0.936997 0 0.604358C 0 0.272203 0.274756 0 0.611111 0L 10.2241 0C 10.56 0 10.8352 0.272203 10.8352 0.604358C 10.8352 0.936997 10.56 1.20872 10.2241 1.20872Z"/>
+        <path id="path14_stroke" d="M 10.2241 0.708716L 0.611111 0.708716L 0.611111 1.70872L 10.2241 1.70872L 10.2241 0.708716ZM 0.611111 0.708716C 0.545645 0.708716 0.5 0.655631 0.5 0.604358L -0.5 0.604358C -0.5 1.21836 0.00386583 1.70872 0.611111 1.70872L 0.611111 0.708716ZM 0.5 0.604358C 0.5 0.55331 0.545907 0.5 0.611111 0.5L 0.611111 -0.5C 0.00360435 -0.5 -0.5 -0.00890443 -0.5 0.604358L 0.5 0.604358ZM 0.611111 0.5L 10.2241 0.5L 10.2241 -0.5L 0.611111 -0.5L 0.611111 0.5ZM 10.2241 0.5C 10.2891 0.5 10.3352 0.553568 10.3352 0.604358L 11.3352 0.604358C 11.3352 -0.00916266 10.8309 -0.5 10.2241 -0.5L 10.2241 0.5ZM 10.3352 0.604358C 10.3352 0.655373 10.2894 0.708716 10.2241 0.708716L 10.2241 1.70872C 10.8306 1.70872 11.3352 1.21862 11.3352 0.604358L 10.3352 0.604358Z"/>
+        <path id="path15_fill" fill-rule="evenodd" d="M 23.3953 55.4786L 4.56769 55.4786C 2.05529 55.4786 0 53.446 0 50.9614L 0 4.51721C 0 2.03258 2.05529 0 4.56769 0L 23.3953 0C 25.9077 0 27.963 2.03258 27.963 4.51721L 27.963 50.9614C 27.963 53.446 25.9077 55.4786 23.3953 55.4786Z"/>
+        <path id="path16_stroke" d="M 23.3953 54.4786L 4.56769 54.4786L 4.56769 56.4786L 23.3953 56.4786L 23.3953 54.4786ZM 4.56769 54.4786C 2.59707 54.4786 1 52.8833 1 50.9614L -1 50.9614C -1 54.0088 1.51351 56.4786 4.56769 56.4786L 4.56769 54.4786ZM 1 50.9614L 1 4.51721L -1 4.51721L -1 50.9614L 1 50.9614ZM 1 4.51721C 1 2.59531 2.59707 1 4.56769 1L 4.56769 -1C 1.51351 -1 -1 1.46984 -1 4.51721L 1 4.51721ZM 4.56769 1L 23.3953 1L 23.3953 -1L 4.56769 -1L 4.56769 1ZM 23.3953 1C 25.3659 1 26.963 2.59531 26.963 4.51721L 28.963 4.51721C 28.963 1.46984 26.4495 -1 23.3953 -1L 23.3953 1ZM 26.963 4.51721L 26.963 50.9614L 28.963 50.9614L 28.963 4.51721L 26.963 4.51721ZM 26.963 50.9614C 26.963 52.8833 25.3659 54.4786 23.3953 54.4786L 23.3953 56.4786C 26.4495 56.4786 28.963 54.0088 28.963 50.9614L 26.963 50.9614Z"/>
+        <path id="path17_fill" fill-rule="evenodd" d="M 0 26.1909L 19.997 26.1909L 19.997 0L 0 0L 0 26.1909Z"/>
+        <path id="path18_fill" fill-rule="evenodd" d="M 16.8727 26.1909L 0 26.1909L 0 0L 16.8727 0L 16.8727 26.1909Z"/>
+        <path id="path19_fill" fill-rule="evenodd" d="M 0 33.523L 10.936 33.523L 26.5589 0L 15.6229 0L 0 33.523Z"/>
+        <path id="path20_fill" fill-rule="evenodd" d="M 4.21178 6.87076e-15L 0 6.87076e-15L 0 6.84888L 4.21178 6.84888L 4.21178 0L 4.21178 6.87076e-15Z"/>
+        <path id="path21_fill" fill-rule="evenodd" d="M 0 9.852L 3.21396 9.852L 7.80511 0L 4.59116 0L 0 9.852Z"/>
+        <path id="path22_stroke" d="M 0 26.1909L -0.5 26.1909L -0.5 26.6909L 0 26.6909L 0 26.1909ZM 19.997 26.1909L 19.997 26.6909L 20.497 26.6909L 20.497 26.1909L 19.997 26.1909ZM 19.997 0L 20.497 0L 20.497 -0.5L 19.997 -0.5L 19.997 0ZM 0 0L 0 -0.5L -0.5 -0.5L -0.5 0L 0 0ZM 0 26.6909L 19.997 26.6909L 19.997 25.6909L 0 25.6909L 0 26.6909ZM 20.497 26.1909L 20.497 0L 19.497 0L 19.497 26.1909L 20.497 26.1909ZM 19.997 -0.5L 0 -0.5L 0 0.5L 19.997 0.5L 19.997 -0.5ZM -0.5 0L -0.5 26.1909L 0.5 26.1909L 0.5 0L -0.5 0Z"/>
+        <path id="path23_stroke" d="M 0 -0.457143C -0.828427 -0.457143 -1.5 0.21443 -1.5 1.04286C -1.5 1.87128 -0.828427 2.54286 0 2.54286L 0 -0.457143ZM 2.51784 2.54286C 3.34627 2.54286 4.01784 1.87128 4.01784 1.04286C 4.01784 0.21443 3.34627 -0.457143 2.51784 -0.457143L 2.51784 2.54286ZM 0 2.54286L 2.51784 2.54286L 2.51784 -0.457143L 0 -0.457143L 0 2.54286Z"/>
+        <path id="path24_stroke" d="M 0 -1.5C -0.828427 -1.5 -1.5 -0.828427 -1.5 0C -1.5 0.828427 -0.828427 1.5 0 1.5L 0 -1.5ZM 4.2108 1.5C 5.03923 1.5 5.7108 0.828427 5.7108 0C 5.7108 -0.828427 5.03923 -1.5 4.2108 -1.5L 4.2108 1.5ZM 0 1.5L 4.2108 1.5L 4.2108 -1.5L 0 -1.5L 0 1.5Z"/>
+        <path id="path25_stroke" d="M 0.511727 -0.457143C -0.3167 -0.457143 -0.988273 0.21443 -0.988273 1.04286C -0.988273 1.87128 -0.3167 2.54286 0.511727 2.54286L 0.511727 -0.457143ZM 3.16318 2.54286C 3.99161 2.54286 4.66318 1.87128 4.66318 1.04286C 4.66318 0.21443 3.99161 -0.457143 3.16318 -0.457143L 3.16318 2.54286ZM 0.511727 2.54286L 3.16318 2.54286L 3.16318 -0.457143L 0.511727 -0.457143L 0.511727 2.54286Z"/>
+        <path id="path26_stroke" d="M 0 -1C -0.552285 -1 -1 -0.552285 -1 0C -1 0.552285 -0.552285 1 0 1L 0 -1ZM 4.48164 1C 5.03393 1 5.48164 0.552285 5.48164 0C 5.48164 -0.552285 5.03393 -1 4.48164 -1L 4.48164 1ZM 0 1L 4.48164 1L 4.48164 -1L 0 -1L 0 1Z"/>
+    </defs>
+</svg>
