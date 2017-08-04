@@ -12,6 +12,21 @@ $(document).ready(function () {
         });
     })();
 
+    (function () {
+        var changeBtn = $('.change-data');
+
+        changeBtn.on('click', function (e) {
+            var $this = $(this);
+            var card = $this.closest('.card');
+            var input = card.find('.form-input');
+
+            input.focus();
+
+
+            e.preventDefault();
+        });
+    })();
+
 
     (function () {
         $('.enable-card').on('click', function (e) {

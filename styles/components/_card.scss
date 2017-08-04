@@ -173,7 +173,8 @@
             }
           }
         }
-        .change-data {
+        .change-data,
+        .change-data-link {
           margin-left: auto;
           @include type-setting(2);
           color: color('text', 'accent');
@@ -184,17 +185,16 @@
           &:focus {
             color: darken(color('text', 'accent'), 15%);
           }
+        }
+        .change-data-link a {
+          text-decoration: none;
+          @include type-setting(2);
+          color: color('text', 'accent');
+          transition: color 0.3s linear;
 
-          & a {
-            text-decoration: none;
-            @include type-setting(2);
-            color: color('text', 'accent');
-            transition: color 0.3s linear;
-
-            &:hover,
-            &:focus {
-              color: darken(color('text', 'accent'), 15%);
-            }
+          &:hover,
+          &:focus {
+            color: darken(color('text', 'accent'), 15%);
           }
         }
         .more-data {
@@ -227,7 +227,8 @@
     .info__content,
     .info__sets,
     .more-data,
-    .card__body .info__actions .change-data {
+    .card__body .info__actions .change-data,
+    .change-data-link {
       opacity: 0;
       transition: opacity 0.3s linear;
     }
@@ -250,7 +251,8 @@
     .info__content,
     .info__sets,
     .more-data,
-    .card__body .info__actions .change-data {
+    .card__body .info__actions .change-data,
+    .change-data-link {
       opacity: 1;
       transition: opacity 0.3s linear 0.4s;
     }

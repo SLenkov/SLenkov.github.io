@@ -17,6 +17,7 @@
 
     &:focus ~ .input-label {
       z-index: -1;
+      opacity: 0;
     }
   }
   .input-label {
